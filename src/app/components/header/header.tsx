@@ -4,7 +4,7 @@ import Navbar from "@/app/components/navigation/navbar";
 
 export default function Header() {
   return (
-    <header className="mt-4 sm:mt-8 mb-8">
+    <header className="mt-2 sm:mt-4 pb-2 sm:pb-4 mb-4 border-b">
       <Navbar />
     </header>
   );
