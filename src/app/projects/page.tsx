@@ -1,4 +1,5 @@
 import Header from "@/app/components/header/header";
+import Footer from "@/app/components/footer/footer";
 import Card from "@/app/components/cards/card";
 import Link from "next/link";
 import "@/app/styles/links.css";
@@ -58,6 +59,7 @@ export default function Projects() {
           </div>
         </article>
       </main>
+      <Footer />
     </div>
   );
 }
