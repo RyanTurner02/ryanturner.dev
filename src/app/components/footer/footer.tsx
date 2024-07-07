@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="flex justify-center space-x-3 mb-10">
+    <footer className="flex justify-center space-x-3 mt-auto mb-10">
       <Link href="https://github.com/RyanTurner02">
         <Image src="assets/github/github-mark-light.svg" alt="GitHub Logo" width={25} height={25} />
       </Link>

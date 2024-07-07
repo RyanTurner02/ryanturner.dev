@@ -3,13 +3,13 @@ import Footer from "@/app/components/footer/footer";
 
 export default function Home() {
   return (
-    <>
+    <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="min-h-[calc(100vh-137px)] sm:min-h-[calc(100vh-153px)]">
-        <p className="flex justify-center mb-10">Hello</p>
-        <p className="flex justify-center mb-10">World!</p>
+      <main>
+        <p>Hello</p>
+        <p>World!</p>
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
