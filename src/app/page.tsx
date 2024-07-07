@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className="flex justify-center">
+      <main className="flex justify-center min-h-12">
         <p>Home</p>
       </main>
       <Footer />
