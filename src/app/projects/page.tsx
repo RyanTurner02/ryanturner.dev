@@ -20,7 +20,7 @@ export default function Projects() {
             <Card
               title="Contact Manager"
               description="A LAMP stack web application for managing a list of contact information."
-              technologies="HTML, CSS, JavaScript, PHP, MySQL, Bootstrap"
+              technologies="HTML, CSS, JavaScript, PHP, SQL, MySQL, Bootstrap"
             />
             <Card
               title="KHInsider Downloader"
