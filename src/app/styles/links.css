@@ -1,3 +1,7 @@
+.header-link {
+    @apply text-xl font-semibold hover:underline;
+}
+
 .text-link {
     @apply underline decoration-light-blue hover:decoration-sky-600
         text-light-blue hover:text-sky-600
