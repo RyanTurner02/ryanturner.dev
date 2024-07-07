@@ -12,48 +12,48 @@ export default function Projects() {
           <h1 className="text-3xl font-bold text-center mb-4">Projects</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             <Card
-              cardTitle="Pocketwatch"
-              cardDescription="A MERN stack web application for tracking time spent on tasks."
-              cardTechnologies="HTML, CSS, JavaScript, React, Bootstrap"
+              title="Pocketwatch"
+              description="A MERN stack web application for tracking time spent on tasks."
+              technologies="HTML, CSS, JavaScript, React, Bootstrap"
             />
             <Card
-              cardTitle="Contact Manager"
-              cardDescription="A LAMP stack web application for managing a list of contact information."
-              cardTechnologies="HTML, CSS, JavaScript, PHP, MySQL, Bootstrap"
+              title="Contact Manager"
+              description="A LAMP stack web application for managing a list of contact information."
+              technologies="HTML, CSS, JavaScript, PHP, MySQL, Bootstrap"
             />
             <Card
-              cardTitle="KHInsider Downloader"
-              cardDescription={
+              title="KHInsider Downloader"
+              description={
                 <>
                   A Java web scraper for downloading video game albums from <Link className="text-link" href="https://downloads.khinsider.com/">KHInsider Downloader</Link>.
                 </>
               }
-              cardTechnologies="Java, JSoup, Apache Commons CLI, Apache Commons IO"
+              technologies="Java, JSoup, Apache Commons CLI, Apache Commons IO"
             />
             <Card
-              cardTitle="Inventory Manager"
-              cardDescription="A JavaFX desktop application for creating, modifying, searching, and deleting a list of inventory items."
-              cardTechnologies="Java, JavaFX, JUnit, Gson, JSoup"
+              title="Inventory Manager"
+              description="A JavaFX desktop application for creating, modifying, searching, and deleting a list of inventory items."
+              technologies="Java, JavaFX, JUnit, Gson, JSoup"
             />
             <Card
-              cardTitle="ryanturner.dev"
-              cardDescription="My personal website."
-              cardTechnologies="HTML, CSS, TypeScript, React, Next.js, TailwindCSS"
+              title="ryanturner.dev"
+              description="My personal website."
+              technologies="HTML, CSS, TypeScript, React, Next.js, TailwindCSS"
             />
             <Card
-              cardTitle="1440"
-              cardDescription="A countdown timer for the remaining minutes of the day."
-              cardTechnologies="HTML, CSS, TypeScript, React, TailwindCSS"
+              title="1440"
+              description="A countdown timer for the remaining minutes of the day."
+              technologies="HTML, CSS, TypeScript, React, TailwindCSS"
             />
             <Card
-              cardTitle="Startpage"
-              cardDescription="A custom webpage for the browser on its startup."
-              cardTechnologies="HTML, CSS, JavaScript, Bootstrap"
+              title="Startpage"
+              description="A custom webpage for the browser on its startup."
+              technologies="HTML, CSS, JavaScript, Bootstrap"
             />
             <Card
-              cardTitle="Pomodoro Timer"
-              cardDescription="A simple and easy-to-use pomodoro timer."
-              cardTechnologies="HTML, CSS, JavaScript"
+              title="Pomodoro Timer"
+              description="A simple and easy-to-use pomodoro timer."
+              technologies="HTML, CSS, JavaScript"
             />
           </div>
         </article>
