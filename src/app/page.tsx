@@ -5,8 +5,9 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className="flex justify-center min-h-12">
-        <p>Home</p>
+      <main className="min-h-[calc(100vh-137px)] sm:min-h-[calc(100vh-153px)]">
+        <p className="flex justify-center mb-10">Hello</p>
+        <p className="flex justify-center mb-10">World!</p>
       </main>
       <Footer />
     </>
