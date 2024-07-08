@@ -26,7 +26,7 @@ export default function Projects() {
               title="KHInsider Downloader"
               description={
                 <>
-                  A Java web scraper for downloading video game albums from <Link className="text-link" href="https://downloads.khinsider.com/">KHInsider Downloader</Link>.
+                  A Java web scraper for downloading video game albums from <Link className="text-link" href="https://downloads.khinsider.com/">KHInsider</Link>.
                 </>
               }
               technologies="Java, JSoup, Apache Commons CLI, Apache Commons IO"
