@@ -56,6 +56,11 @@ export default function Projects() {
               description="A simple and easy-to-use pomodoro timer."
               technologies="HTML, CSS, JavaScript"
             />
+            <Card
+              title="Wikipedia Philosophy"
+              description="A web crawler for getting to the Philosophy article on Wikipedia."
+              technologies="Java, JSoup"
+            />
           </div>
         </article>
       </main>
