@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="flex justify-around">
+    <nav className="hidden sm:flex justify-around">
       <div>
         <Link className="header-link" href="/">Home</Link>
       </div>
