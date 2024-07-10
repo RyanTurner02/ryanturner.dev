@@ -7,6 +7,11 @@ export default function ProjectList() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       <Card
+        title="ryanturner.dev"
+        description="My personal website."
+        technologies="HTML, CSS, TypeScript, React, Next.js, TailwindCSS"
+      />
+      <Card
         title="Pocketwatch"
         description="A MERN stack web application for tracking time spent on tasks."
         technologies="HTML, CSS, JavaScript, React, Bootstrap"
@@ -29,11 +34,6 @@ export default function ProjectList() {
         title="Inventory Manager"
         description="A JavaFX desktop application for creating, modifying, searching, and deleting a list of inventory items."
         technologies="Java, JavaFX, JUnit, Gson, JSoup"
-      />
-      <Card
-        title="ryanturner.dev"
-        description="My personal website."
-        technologies="HTML, CSS, TypeScript, React, Next.js, TailwindCSS"
       />
       <Card
         title="1440"
