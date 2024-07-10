@@ -12,6 +12,7 @@ export default function Navbar() {
       <div className="space-x-10">
         <Link className="header-link" href="/projects">Projects</Link>
         <Link className="header-link" href="/games">Games</Link>
+        <Link className="header-link" href="/contact">Contact</Link>
       </div>
     </nav>
   );
