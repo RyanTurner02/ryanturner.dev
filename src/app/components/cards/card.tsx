@@ -22,20 +22,31 @@ export default function Card({ title, links, releaseDate, description, technolog
       <header className="card-header">
         <div className="flex justify-between">
           <h2 className="card-title text-xl font-semibold">{title}</h2>
-          <div className="card-links flex space-x-3">
-            {
-              links?.githubURL &&
-              <Link href={links.githubURL}>
-                <Image src="assets/github/github-mark-light.svg" alt="GitHub Logo" width={15} height={15} />
-              </Link>
-            }
-            {
-              links?.itchURL &&
-              <Link href={links.itchURL}>
-                <Image src="assets/itch/itchio-textless-black.svg" alt="Itch.io Logo" width={17} height={0} />
-              </Link>
-            }
-          </div>
+          {
+            links &&
+            <div className="card-links flex space-x-4 ml-5">
+              {
+                links?.githubURL &&
+                <Link className="relative w-[25px] h-[25px]" href={links.githubURL}>
+                  <Image
+                    src="assets/github/github-mark-light.svg"
+                    alt="GitHub Logo"
+                    fill={true}
+                  />
+                </Link>
+              }
+              {
+                links?.itchURL &&
+                <Link className="relative w-[25px] h-[25px]" href={links.itchURL}>
+                  <Image
+                    src="assets/itch/itchio-textless-black.svg"
+                    alt="Itch.io Logo"
+                    fill={true}
+                  />
+                </Link>
+              }
+            </div>
+          }
         </div>
         {
           releaseDate && <p className="card-release-date text-sm">{releaseDate}</p>
