@@ -12,7 +12,8 @@ type Prop = {
 };
 
 type cardLinks = {
-  githubURL: string,
+  githubURL?: string,
+  itchURL?: string,
 };
 
 export default function Card({ title, links, releaseDate, description, technologies }: Prop) {
@@ -26,6 +27,12 @@ export default function Card({ title, links, releaseDate, description, technolog
               links?.githubURL &&
               <Link href={links.githubURL}>
                 <Image src="assets/github/github-mark-light.svg" alt="GitHub Logo" width={15} height={15} />
+              </Link>
+            }
+            {
+              links?.itchURL &&
+              <Link href={links.itchURL}>
+                <Image src="assets/itch/itchio-textless-black.svg" alt="Itch.io Logo" width={17} height={0} />
               </Link>
             }
           </div>
