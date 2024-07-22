@@ -1,5 +1,6 @@
 'use client';
 
+import "@/app/styles/links.css";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -27,7 +28,7 @@ export default function Card({ title, links, releaseDate, description, technolog
             <div className="card-links flex space-x-4 ml-5">
               {
                 links?.githubURL &&
-                <Link className="relative w-[25px] h-[25px]" href={links.githubURL}>
+                <Link className="icon-link" href={links.githubURL}>
                   <Image
                     src="assets/github/github-mark-light.svg"
                     alt="GitHub Logo"
@@ -37,7 +38,7 @@ export default function Card({ title, links, releaseDate, description, technolog
               }
               {
                 links?.itchURL &&
-                <Link className="relative w-[25px] h-[25px]" href={links.itchURL}>
+                <Link className="icon-link" href={links.itchURL}>
                   <Image
                     src="assets/itch/itchio-textless-black.svg"
                     alt="Itch.io Logo"

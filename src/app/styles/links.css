@@ -7,3 +7,7 @@
         text-light-blue hover:text-sky-600
         transition ease-out duration-300;
 }
+
+.icon-link {
+    @apply relative w-[30px] h-[30px];
+}
