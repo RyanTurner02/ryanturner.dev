@@ -64,6 +64,11 @@ export default function ProjectList() {
         description="A web crawler for getting to the Philosophy article on Wikipedia."
         technologies="Java, JSoup"
       />
+      <Card
+        title="text2mc"
+        description="The first web application that creates Minecraft builds with Generative AI."
+        technologies="Python, Java"
+      />
     </div>
   );
 }
