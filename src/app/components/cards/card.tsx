@@ -19,8 +19,8 @@ type cardLinks = {
 
 export default function Card({ title, links, releaseDate, description, technologies }: Prop) {
   return (
-    <div className="grid grid-rows-[auto,1fr,auto] gap-4 card-border border-2 border-gray-300 rounded-lg p-3 w-full h-full">
-      <header className="card-header">
+    <div className="flex flex-col justify-between card-border border-2 border-gray-300 rounded-lg p-3">
+      <header className="card-header mb-3">
         <div className="flex justify-between">
           <h2 className="card-title text-xl font-semibold">{title}</h2>
           {
@@ -53,8 +53,8 @@ export default function Card({ title, links, releaseDate, description, technolog
           releaseDate && <p className="card-release-date text-sm">{releaseDate}</p>
         }
       </header>
-      <p className="card-description pb-4">{description}</p>
-      <p className="card-technologies self-end text-xs">{technologies}</p>
+      <p className="card-description mb-2">{description}</p>
+      <p className="card-technologies text-xs text-gray-700">{technologies}</p>
     </div>
   );
 }
