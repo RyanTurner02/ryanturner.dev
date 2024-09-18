@@ -18,10 +18,28 @@ export default function SidebarHeader() {
     return isDisplaying ? xmarkImage : hamburgerImage;
   };
 
+  const displayLinks = () => {
+    return (
+      <div className="flex justify-center pt-4 border-t">
+        <div className="flex flex-col text-center">
+        <Link className="header-link my-1" href="/projects" onClick={toggleSidebar}>Projects</Link>
+        <Link className="header-link my-1" href="/games" onClick={toggleSidebar}>Games</Link>
+        </div>
+      </div>
+    );
+  }
+
   return (
-    <div className="flex sm:hidden justify-between ml-4 mr-4">
-      <Link className="header-link" href="/">Ryan Turner</Link>
-      { toggleSidebarImage() }
+    <div>
+      <div className="flex sm:hidden justify-between ml-4 mr-4 mb-4">
+        <Link className="header-link" href="/">Ryan Turner</Link>
+        { 
+          toggleSidebarImage() 
+        }
+      </div>
+      {
+        isDisplaying && displayLinks()
+      }
     </div>
   );
 }
