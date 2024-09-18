@@ -66,6 +66,7 @@ export default function ProjectList() {
       />
       <Card
         title="text2mc"
+        links={{ githubURL: "https://github.com/shauncomino/text2mc-dataprocessor" }}
         description="The first web application that creates Minecraft builds with Generative AI."
         technologies="Python, Java"
       />
