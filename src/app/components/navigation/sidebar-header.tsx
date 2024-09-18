@@ -22,8 +22,8 @@ export default function SidebarHeader() {
     return (
       <div className="flex justify-center pt-4 border-t">
         <div className="flex flex-col text-center">
-        <Link className="header-link my-1" href="/projects" onClick={toggleSidebar}>Projects</Link>
-        <Link className="header-link my-1" href="/games" onClick={toggleSidebar}>Games</Link>
+        <Link className="header-link my-1" href="/projects">Projects</Link>
+        <Link className="header-link my-1" href="/games">Games</Link>
         </div>
       </div>
     );
