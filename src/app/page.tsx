@@ -1,5 +1,7 @@
 import Header from "@/app/components/header/header";
 import Footer from "@/app/components/footer/footer";
+import Link from "next/link";
+import "@/app/styles/links.css";
 
 export default function Home() {
   return (
@@ -8,9 +10,9 @@ export default function Home() {
       <main className="flex justify-center mb-10">
         <article className="sm:w-2/3 w-5/6">
           <h1 className="text-3xl font-bold text-center mb-4">Welcome</h1>
-          <section>
-            <h2 className="text-xl font-bold">Introduction</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At auctor urna nunc id cursus metus aliquam eleifend mi. Gravida dictum fusce ut placerat orci nulla pellentesque dignissim. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec. Fermentum dui faucibus in ornare quam viverra. Nullam vehicula ipsum a arcu. Urna molestie at elementum eu facilisis sed odio morbi quis. Eget arcu dictum varius duis at. Ullamcorper malesuada proin libero nunc consequat interdum varius sit amet. Orci porta non pulvinar neque laoreet suspendisse. Nibh tortor id aliquet lectus proin. Magna etiam tempor orci eu. Amet commodo nulla facilisi nullam vehicula ipsum a arcu. Ultrices vitae auctor eu augue ut lectus arcu. Sit amet consectetur adipiscing elit duis tristique. Lorem ipsum dolor sit amet consectetur. Quisque id diam vel quam elementum pulvinar etiam non.</p>
+          <section className="text-left sm:text-center">
+            <p>I am an aspiring Software Engineer and a Computer Science student at the University of Central Florida.</p>
+            <p>You can find the <Link className="text-link" href="/projects">projects</Link> and <Link className="text-link" href="/games">games</Link> I worked on on my website.</p>
           </section>
         </article>
       </main>
