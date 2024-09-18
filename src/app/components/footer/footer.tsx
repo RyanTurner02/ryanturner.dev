@@ -13,8 +13,6 @@ export default function Footer() {
       <Link href="https://www.linkedin.com/in/ryanturner02/">
         <Image src="assets/linkedin/linkedin-light.svg" alt="LinkedIn Logo" width={25} height={25} />
       </Link>
-
-      <Image src="assets/envelope/envelope-light.svg" alt="Email Logo" width={25} height={25} />
     </footer>
   );
 }
