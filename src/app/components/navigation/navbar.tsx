@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <nav className="hidden sm:flex justify-around">
       <div>
-        <Link className="header-link" href="/">Home</Link>
+        <Link className="header-link" href="/">Ryan Turner</Link>
       </div>
       <div className="space-x-10">
         <Link className="header-link" href="/projects">Projects</Link>

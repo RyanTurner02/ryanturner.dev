@@ -20,7 +20,7 @@ export default function SidebarHeader() {
 
   return (
     <div className="flex sm:hidden justify-between ml-4 mr-4">
-      <Link className="header-link" href="/">Home</Link>
+      <Link className="header-link" href="/">Ryan Turner</Link>
       { toggleSidebarImage() }
     </div>
   );
